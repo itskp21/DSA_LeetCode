@@ -8,11 +8,6 @@ public:
                 ans.push_back(i);
             }
         }
-        if(ans.empty()){
-            return {};
-        }
-        else{
-            return ans;
-        }
+        return ans;
     }
 };
